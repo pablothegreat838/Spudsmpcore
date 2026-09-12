@@ -1,0 +1,2 @@
+# Spudsmpcore
+Spudsmp core plugin
