@@ -1,0 +1,76 @@
+name: SpudSMP
+version: 1.0.0
+main: com.spudsmp.core.SpudSMPPlugin
+author: SpudSMP
+description: Complete survival server core for Spigot 1.12.2
+softdepend: [Vault, PlaceholderAPI]
+commands:
+  spudsmp:
+    description: SpudSMP administration and reload command
+    usage: /spudsmp reload
+  crate:
+    description: Crate key and crate management
+  ah:
+    aliases: [auctionhouse, auctions]
+    description: Auction House
+  shop:
+    description: SpudSMP shop
+  amethyst:
+    description: Give Amethyst equipment
+  tpa:
+    description: Request a teleport to a player
+  tpaccept:
+    description: Accept a teleport request
+  tpdeny:
+    description: Deny a teleport request
+  tpacancel:
+    description: Cancel a teleport request
+  leaderboards:
+    aliases: [lb]
+    description: View server leaderboards
+  portal:
+    description: Open or close a portal
+  shutdown:
+    description: Schedule a server shutdown
+  tpr:
+    description: Random teleport menu
+  spudclear:
+    description: Clear dropped items and experience
+  setspawn:
+    description: Set the server spawn
+  spawn:
+    description: Teleport to spawn
+  setpvp:
+    description: Set the PvP warp
+  pvp:
+    description: Teleport to the PvP warp
+  help:
+    description: Open the SpudSMP help menu
+  staff:
+    description: Open the staff menu
+  ptp:
+    description: Teleport to an online player
+  spud-list:
+    description: List SpudSMP commands
+  spud-holders:
+    description: List SpudSMP placeholders
+  balance:
+    aliases: [bal, money]
+    description: View your balance
+  pay:
+    description: Pay another player
+  baltop:
+    description: View richest players
+  eco:
+    description: Manage player balances
+  homes:
+    description: Manage special home beds
+  team:
+    description: Manage teams
+permissions:
+  spudsmp.admin:
+    default: op
+  spudsmp.staff:
+    default: op
+  spudsmp.bypass:
+    default: op

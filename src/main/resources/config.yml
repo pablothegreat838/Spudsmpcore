@@ -1,0 +1,53 @@
+prefix: '&8[&6SpudSMP&8] &7'
+tpa:
+  enabled: true
+  timeout-seconds: 60
+  teleport-delay-seconds: 5
+tpr:
+  enabled: true
+  worlds:
+    overworld: true
+    nether: true
+    end: true
+  limits:
+    overworld: 5000
+    nether: 2500
+    end: 5000
+clearlag:
+  enabled: true
+  interval-seconds: 600
+  warning-seconds: [60, 30, 10]
+  clear-xp: true
+  clear-items: true
+announcements:
+  enabled: true
+  interval-seconds: 180
+  messages:
+    - '&eWelcome to SpudSMP! Use &6/help &efor a list of features.'
+    - '&eProtect your items by using the &6/ah &eauction house.'
+shop:
+  categories:
+    food:
+      BREAD: [4.0, 1.0]
+      COOKED_BEEF: [12.0, 3.0]
+      GOLDEN_APPLE: [250.0, 80.0]
+    ores:
+      IRON_INGOT: [20.0, 8.0]
+      GOLD_INGOT: [35.0, 14.0]
+      DIAMOND: [100.0, 40.0]
+      EMERALD: [150.0, 60.0]
+    blocks:
+      COBBLESTONE: [1.0, 0.25]
+      OBSIDIAN: [50.0, 20.0]
+    tools:
+      IRON_PICKAXE: [90.0, 20.0]
+      DIAMOND_PICKAXE: [450.0, 120.0]
+    weapons:
+      IRON_SWORD: [80.0, 20.0]
+    armor:
+      IRON_HELMET: [60.0, 15.0]
+    misc:
+      TORCH: [2.0, 0.5]
+      ENDER_PEARL: [35.0, 12.0]
+spawn: {}
+pvp: {}
